@@ -7,7 +7,7 @@ const SocialMedia = () => {
       <b className="text-black text-3xl md:text-4xl pb-2">
         Acesse nossas redes sociais
       </b>
-      <div className="flex flex-row h-auto w-full p-4 ">
+      <div className="flex flex-row h-auto w-full p-4 overflow-x-auto">
         <div className="flex-1">
           <SocialMediaCard
             Icon={FaInstagram}
