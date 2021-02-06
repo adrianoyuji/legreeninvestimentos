@@ -60,7 +60,7 @@ const Footer = () => {
             <b className="font-mono text-xl py-2">Razão Social</b>
             <a className="font-mono text-lg">Pepe & Shino ltda.</a>
             <a className="font-mono text-lg">CNPJ: 64.619.940/0001-46</a>
-            <a className="font-mono text-lg">Todos os dirfeitos reservados</a>
+            <a className="font-mono text-lg">Todos os direitos reservados</a>
           </nav>
         </nav>
       </div>

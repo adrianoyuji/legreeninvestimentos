@@ -9,14 +9,14 @@ type Props = {
 };
 
 const Layout = ({ children, title = "Le Green Investimentos" }: Props) => (
-  <div className="flex flex-col bg-black h-screen w-screen">
+  <div className="layout">
     <Head>
       <title>{title}</title>
       <meta charSet="utf-8" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     </Head>
     <Header />
-    <main className="flex flex-col w-screen h-full">{children}</main>
+    <main className="flex flex-col w-screen h-auto">{children}</main>
     <Footer />
   </div>
 );

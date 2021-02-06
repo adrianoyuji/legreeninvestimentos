@@ -1,8 +1,17 @@
 import Layout from "components/ui/Layout/index";
+import Heading from "components/sections/Heading";
+import Description from "components/sections/Description";
+import Features from "components/sections/Features";
+import Cases from "components/sections/Cases";
+import SocialMedia from "components/sections/SocialMedias";
 
 const IndexPage = () => (
   <Layout title="Le Green Investimentos">
-    <h1 className="text-white">rao td si fude</h1>
+    <Heading />
+    <Description />
+    <Features />
+    <Cases />
+    <SocialMedia />
   </Layout>
 );
 
