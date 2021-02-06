@@ -41,6 +41,7 @@ const Footer = () => {
             </a>
 
             <a
+              href="https://api.whatsapp.com/send?phone=5567992968778&text=Ol%C3%A1,%20gostaria%20de%20come%C3%A7ar%20a%20lucrar%20com%20o%20grupo%20de%20picks!"
               target="_blank"
               className="font-mono text-lg hover:text-gray-800"
             >
